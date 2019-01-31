@@ -1,4 +1,8 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Editor from './Editor'
 
-
-export default props => <h3>WYSIWYG Editor for React</h3>
+export default props => (
+  <Fragment>
+    <Editor></Editor>
+  </Fragment>
+)
